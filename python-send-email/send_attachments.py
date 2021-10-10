@@ -14,9 +14,9 @@ from email.mime.base import MIMEBase
 
 def send_email(text=None, template=None):
     # sender = "your_email"
-    sender = "rowi.xyz@gmail.com"
+    sender = "********"
     # your password = "your password"
-    password = "k46VONHerZ13k"
+    password = "********"
     # password = os.getenv("EMAIL_PASSWORD")
 
     server = smtplib.SMTP("smtp.gmail.com", 587)
